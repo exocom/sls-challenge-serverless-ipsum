@@ -1,0 +1,6 @@
+.serverless
+serverless-user.yml
+
+node_modules
+
+.tmp/
