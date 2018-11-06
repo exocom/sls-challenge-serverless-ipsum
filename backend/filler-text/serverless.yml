@@ -21,6 +21,7 @@ functions:
     - http:
         path: filler-text
         method: post
+        cors: true
 
 custom:
   user: ${file(../serverless.yml):custom.user}
